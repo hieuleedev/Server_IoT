@@ -16,7 +16,7 @@ router.get('/user', (req, res) => {
 router.post('/publish', (req, res) => {
     const { topic, message } = req.body;
 
-    mqttClient.publish(topic, message, (err) => {
+    mqttClient.publish("mess", message, (err) => {
         if (err) {
             console.error('Error publishing message:', err);
             res.status(500).json({ error: 'Failed to publish message' });
