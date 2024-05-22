@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.main {
+  display: grid;
+ /* grid-template-columns: repeat(5, 1fr);  3 cột với chiều rộng bằng nhau */
+  gap: 20px; /* Khoảng cách giữa các thành phần */
+}
+
+/* CSS cho mỗi thành phần TemperaturMonitoring */
+.TemperaturMonitoring {
+  background-color: #ffffff; /* Màu nền */
+  border-radius: 8px; /* Bo tròn viền */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Hiệu ứng shadow */
+  padding: 20px; /* Khoảng cách nội dung và viền */
+}
+
+.time {
+  font-size: 24px; /* Tăng kích thước font chữ để dễ nhìn hơn */
+  color: #333; /* Màu chữ tối hơn để dễ đọc */
+  margin-bottom: 20px;
+  background-color: #f0e68c; /* Sử dụng màu nền sáng hơn và nhẹ nhàng */
+  border-radius: 10px; /* Làm tròn các góc ít hơn */
+  padding: 10px 20px; /* Thêm khoảng đệm bên trong để chữ không sát viền */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Thêm đổ bóng nhẹ để tạo chiều sâu */
+  display: inline-block; /* Để phần tử không chiếm toàn bộ chiều rộng */
+  font-family: Arial, sans-serif; /* Chọn font chữ dễ đọc */
+}
+
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.header {
+  font-size: 2em; /* Chữ to */
+  color: white;
+  background-color: #00529c; /* Header màu xanh */
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

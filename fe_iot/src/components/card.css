@@ -1,0 +1,45 @@
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-4px);
+  }
+  
+  .card-content {
+    padding: 10px;
+  }
+
+  .card-content h2 {
+    text-align: center; /* Căn giữa tiêu đề */
+    margin-bottom: 10px; /* Khoảng cách giữa tiêu đề và nội dung */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Hiệu ứng shadow cho tiêu đề */
+  }
+  
+  .card-content p {
+    text-align: justify; /* Căn đều văn bản */
+    text-indent: 20px; /* Thụt lề cho đoạn văn bản */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Hiệu ứng shadow cho đoạn văn bản */
+  }
+
+  .monitoring-item {
+    margin-bottom: 20px;
+  }
+  
+  .monitoring-item p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .monitoring-item .progress-bar-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  
